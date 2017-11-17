@@ -1,0 +1,218 @@
+@import "bourbon"
+
+html,
+body
+  height: 100%
+
+body
+  font-family: PTSansRegular, sans-serif
+  font-size: 14px
+  line-height: 22px
+
+header
+  background-color: #dcdcdc
+  padding: 45px 20px
+
+.wrapper
+  position: relative
+  min-height: 100%
+
+.content-wrapper
+  padding-bottom: 205px
+
+.logo
+  padding: 19px 0
+  img
+    width: 273px
+    height: 100px
+
+.contacts
+  float: right
+  p
+    margin-bottom: 20px
+    font-size: 40px
+    color: #767676
+    font-family: OpenSans, sans-serif
+    &:last-child
+      font-size: 24px
+      font-family: PTSansBold, sans-serif
+      float: right
+      border-bottom: 2px dashed
+
+.top_menu
+  padding: 25px 0
+  background-color: #777
+  font-size: 30px
+  ul
+    float: none
+    text-align: center
+    > li
+      float: none
+      display: inline-block
+      &:first-child a
+        border-left: none
+      > a
+        border-left: 1px solid
+        color: #fff
+        padding:
+          top: 0px
+          bottom: 5px
+        &:hover, &:focus
+          text-decoration: underline
+          background: none
+
+.breadcrumb
+  background-color: #fff
+  ul
+  > li
+    > a
+        color: #767676
+
+.box
+  color: #767676
+  cursor: pointer
+  h4
+    span
+    &:hover
+      text-decoration: underline
+  ul
+    li
+      &:nth-child(1):hover
+        text-decoration: underline
+      &:nth-child(2):hover
+        text-decoration: underline
+      &:nth-child(3):hover
+        text-decoration: underline
+      &:nth-child(4):hover
+        text-decoration: underline
+
+.leftblock
+  .price-list
+    margin-top: 110px
+    text-align: center
+    p
+      font-size: 30px
+      font-family: PTSansBold
+      color: #444
+    a
+      text-decoration: none
+
+.product
+  background-color: #dbdbdb
+  padding: 20px 0 12px
+  margin:
+    top: 10px
+    bottom: 15px
+    right: 15px
+  width: 250px
+  .product-img
+    text-align: center
+  .product-content
+    color: #767676
+    margin: 20px 0
+    padding: 0 35px
+    font-size: 18px
+    height: 90px
+  .price
+    padding: 0 35px
+    p
+      display: inline-block
+      font-size: 28px
+      font-family: PTSansBold, sans-serif
+      color: #444
+    img
+      float: right
+
+.centerblock
+  padding-bottom: 200px
+  .catalog-content
+    min-height: 100%
+    overflow: hidden
+  .pages
+    text-align: center
+  .pagination>li>a, .pagination>li>span
+    color: #767676
+    background-color: #fff
+    border: none
+  .pagination>.active>a, .pagination>.active>span,
+  .pagination>.active>a:hover, .pagination>.active>span:hover,
+  .pagination>.active>a:focus, .pagination>.active>span:focus
+    color: #444
+    background-color: #fff
+    border: none
+    margin-top: -5px
+    font-size: 18px
+
+.about_us
+  margin-top: 30px
+  border-top: 1px solid black
+  padding-top: 30px
+  p
+    color: #767676
+  .left-block
+    padding-left: 0
+  .right-block
+    padding-right: 0
+
+footer
+  position: absolute
+  left: 0
+  bottom: 0
+  width: 100%
+  background-color: #767676
+  color: #fff
+  padding: 50px 0
+  .menu
+    padding-left: 100px
+    ul
+      list-style-type: none
+      li
+        a
+          color: #fff
+          border-bottom: 2px solid #b3b3b3
+        &:hover a
+          text-decoration: none
+
+  .project-name
+    text-align: right
+    padding-right: 150px
+    p
+      text-decoration: underline
+
+
+form
+  font-family: PTSansRegular, sans-serif
+  margin: auto
+  text-align: center
+  background-color: #fff
+  width: 467px
+  height: 579px
+  h3
+    padding-top: 30px
+    font-family: PTSansBold, sans-serif
+    text-transform: uppercase
+  p
+    padding-top: 10px
+    margin: 0
+  input
+    padding-left: 10px
+    width: 340px
+    height: 41px
+  textarea
+    width: 340px
+    height: 140px
+    resize: none
+  .btn-primary
+    text-transform: uppercase
+    color: #fff
+    background-color: #444
+    padding: 10px 20px
+    border: none
+    border-radius: 0
+    font-size: 17.77px
+    font-family: PTSansBold, sans-serif
+    margin-top: 10px
+
+.form-input_error
+  border: 1px solid red
+  box-shadow: 0 0 15px red inset

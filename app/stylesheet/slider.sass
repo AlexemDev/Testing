@@ -1,0 +1,31 @@
+
+.carousel-inner
+  .item
+    img
+      width: 1400px
+      margin: auto
+
+
+.carousel-wrapper
+  .carousel-fade
+    position: relative
+    a
+     position: absolute
+     top: 50%
+    .left
+      left: 20%
+    .right
+      right: 20%
+    .carousel-inner
+      .item
+        opacity: 0
+        transition-property: opacity
+      .active
+        opacity: 1
+      .active.left, .active.right
+        left: 0
+        opacity: 0
+        z-index: 1
+
+    .carousel-control
+      z-index: 2
